@@ -8,7 +8,7 @@ for (let i = 0; i < 5; i++) {
     }));
 }
 
-// Use Promise.any() here
+// Use Promise.any() here~
 Promise.any(promises)
     .then(result => {
         document.getElementById('output').innerText = result; // Update the output div
